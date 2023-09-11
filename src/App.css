@@ -1,0 +1,156 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+  /* Body styles */
+ 
+  h2{
+    position:absolute;
+    left:20%;
+    bottom:120%;
+    font-size:50px;
+    color:black;
+   border:1px solid white;
+   
+ 
+  }
+  h2:hover{
+    border:1px solid white;
+    scale:1.1;
+    color:gray;
+    border-radius:20px;
+  }
+  h6{
+    font-size:20px;
+    color:black;
+
+  }
+  h6:hover{
+    scale:1.1;
+    color:blue;
+  }
+  input:hover{
+    scale:1.1;
+    color:gray;
+    border-radius:20px;
+  }
+  /* Signup container styles */
+  .signup-form {
+    background-color:lightskyblue;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position:absolute;
+    left:40%;
+    bottom:19%;
+    
+  }
+  
+  /* Signup form styles */
+  
+  
+  .signup-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .signup-container input :hover{
+    scale: 1.1;
+    color: aqua;
+  }
+  .signup-form button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color:red;
+  }
+  .signup-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form button:hover {
+    background-color: red;
+    color:black;
+  }
+
+  /* Login css */
+  
+  .login-container {
+    background-color:lightskyblue;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position:absolute;
+    left:40%;
+    bottom:25%;
+  }
+  .login-container:hover{
+    scale: 1.1;
+   background-color: darkslategray;
+  }
+  h2{
+    position:absolute;
+    left:25%;
+    bottom:120%;
+    font-size:40px;
+    color:black;
+   border:1px solid white;
+ 
+  }
+  /* Login form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: red;
+  }
+  
+  .login-form  {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+    }
+  }
+  
+
+  
